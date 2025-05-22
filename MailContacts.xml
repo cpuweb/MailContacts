@@ -1,0 +1,28 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+  <Frame name="MailContactsFrame" parent="SendMailFrame" inherits="Frame">
+    <Scripts>
+      <OnLoad>
+        MailContacts_OnLoad()
+      </OnLoad>
+    </Scripts>
+    <Frames>
+      <Button name="MailContactsArrowButton" inherits="UIPanelButtonTemplate">
+        <Size>
+          <AbsDimension x="20" y="20"/>
+        </Size>
+        <Anchors>
+          <Anchor point="LEFT" relativeTo="SendMailNameEditBox" relativePoint="RIGHT">
+            <Offset>
+              <AbsDimension x="-12" y="0"/>
+            </Offset>
+          </Anchor>
+        </Anchors>
+        <Scripts>
+          <OnClick>
+            MailContacts_ToggleDropdown()
+          </OnClick>
+        </Scripts>
+      </Button>
+    </Frames>
+  </Frame>
+</Ui>

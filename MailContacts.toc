@@ -1,0 +1,9 @@
+## Interface: 11200
+## Title: MailContacts
+## Notes: Lets you save frequently used contacts.
+## Author: Zierlox
+## Version: 0.0.1
+## SavedVariables: MailContactsDB
+
+MailContacts.lua
+MailContacts.xml
